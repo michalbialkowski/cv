@@ -1,0 +1,93 @@
+@media screen and (max-width: 575.98px) {
+  #section__nav__bottom .container {
+    max-width: none;
+    padding: 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body.hastopnav > #section__page {
+    padding-top: 65px;
+  }
+  body.hasbottomnav > #section__page {
+    padding-bottom: 75px;
+  }
+}
+
+.fixed-top {
+  transition: top 0.5s;
+}
+.fixed-top.abovetop {
+  top: -65px;
+}
+
+.fixed-bottom {
+  transition: bottom 0.5s;
+}
+.fixed-bottom.underbottom {
+  bottom: -75px;
+}
+
+body.nav__konto #section__nav__bottom .nav__konto {
+  background: white linear-gradient(rgba(248, 249, 250, 0), rgba(248, 249, 250, 0.25));
+  box-shadow: 0 0 10px rgba(248, 249, 250, 0.75) inset !important;
+}
+body.nav__oferty #section__nav__bottom .nav__oferty {
+  background: white linear-gradient(rgba(248, 249, 250, 0), rgba(248, 249, 250, 0.25));
+  box-shadow: 0 0 10px rgba(248, 249, 250, 0.75) inset !important;
+}
+body.nav__zakupy #section__nav__bottom .nav__zakupy {
+  background: white linear-gradient(rgba(248, 249, 250, 0), rgba(248, 249, 250, 0.25));
+  box-shadow: 0 0 10px rgba(248, 249, 250, 0.75) inset !important;
+}
+body.nav__zasoby #section__nav__bottom .nav__zasoby {
+  background: white linear-gradient(rgba(248, 249, 250, 0), rgba(248, 249, 250, 0.25));
+  box-shadow: 0 0 10px rgba(248, 249, 250, 0.75) inset !important;
+}
+body.nav__wiadomosci #section__nav__bottom .nav__wiadomosci {
+  background: white linear-gradient(rgba(248, 249, 250, 0), rgba(248, 249, 250, 0.25));
+  box-shadow: 0 0 10px rgba(248, 249, 250, 0.75) inset !important;
+}
+body.nav__szukaj #section__nav__bottom .nav__szukaj {
+  background: white linear-gradient(rgba(248, 249, 250, 0), rgba(248, 249, 250, 0.25));
+  box-shadow: 0 0 10px rgba(248, 249, 250, 0.75) inset !important;
+}
+body.nav__najemca #section__nav__bottom .nav__najemca {
+  background: white linear-gradient(rgba(248, 249, 250, 0), rgba(248, 249, 250, 0.25));
+  box-shadow: 0 0 10px rgba(248, 249, 250, 0.75) inset !important;
+}
+body.nav__wynajmujacy #section__nav__bottom .nav__wynajmujacy {
+  background: white linear-gradient(rgba(248, 249, 250, 0), rgba(248, 249, 250, 0.25));
+  box-shadow: 0 0 10px rgba(248, 249, 250, 0.75) inset !important;
+}
+body.nav__aplikacja #section__nav__bottom .nav__aplikacja {
+  background: white linear-gradient(rgba(248, 249, 250, 0), rgba(248, 249, 250, 0.25));
+  box-shadow: 0 0 10px rgba(248, 249, 250, 0.75) inset !important;
+}
+
+@media (max-width: 991.98px) {
+  .abovebottom {
+    bottom: 15px;
+  }
+
+  .abovenav {
+    bottom: 90px;
+  }
+
+  .abovebuttons {
+    bottom: 85px;
+  }
+}
+@media (min-width: 992px) {
+  .lg-abovebottom {
+    bottom: 15px;
+  }
+
+  .lg-abovenav {
+    bottom: 90px;
+  }
+
+  .lg-abovebuttons {
+    bottom: 85px;
+  }
+}
