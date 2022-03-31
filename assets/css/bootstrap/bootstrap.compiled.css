@@ -8008,6 +8008,10 @@ textarea.form-control-lg {
   background-color: transparent !important;
 }
 
+.bg-opacity-5 {
+  --bs-bg-opacity: 0.05;
+}
+
 .bg-opacity-10 {
   --bs-bg-opacity: 0.1;
 }
